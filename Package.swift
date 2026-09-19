@@ -13,9 +13,9 @@ let package = Package(
         .library(name: "web3-zksync.swift", targets: ["web3-zksync"])
     ],
     dependencies: [
-        .package(url: "https://github.com/attaswift/BigInt", from: "5.7.0"),
+        .package(url: "https://github.com/attaswift/BigInt", from: "6.0.1"),
         .package(url: "https://github.com/iwill/generic-json-swift", .upToNextMajor(from: "2.0.2")),
-        .package(url: "https://github.com/21-DOT-DEV/swift-secp256k1", exact: "0.21.1"),
+        .package(url: "https://github.com/21-DOT-DEV/swift-secp256k1", exact: "0.23.2"),
         .package(url: "https://github.com/vapor/websocket-kit.git", from: "2.16.1"),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.6.4")
     ],
